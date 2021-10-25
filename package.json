@@ -1,0 +1,46 @@
+{
+  "name": "moviezone",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16.10.0",
+    "npm": "7.24.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --env=jsdom"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^27.0.7"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.10.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/enzyme": "^3.10.10",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.5",
+    "@types/react": "^17.0.32",
+    "@types/react-test-renderer": "^17.0.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "babel-jest": "^27.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "jest": "^27.3.1",
+    "jest-fetch-mock": "^3.0.3",
+    "typescript": "^4.4.4"
+  }
+}

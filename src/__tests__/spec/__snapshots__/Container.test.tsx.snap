@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> renders <Container /> component with data. 1`] = `
+<div
+  className="undefined"
+>
+  Test
+</div>
+`;

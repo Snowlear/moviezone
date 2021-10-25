@@ -1,0 +1,28 @@
+.menu {
+  padding-left: 80px;
+}
+
+@media (max-width: 1350px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 0;
+    padding: 20px 50px;
+    width: 50%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all 800ms ease-in-out;
+    z-index: 2;
+  }
+
+  .hidden {
+    left: -600px;
+    opacity: 0;
+  }
+}

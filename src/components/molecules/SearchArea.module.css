@@ -1,0 +1,36 @@
+.form {
+  height: 60px;
+  width: 650px;
+  min-height: 40px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #2c2f39;
+  background: transparent;
+  padding: 10px 16px;
+  width: 260px;
+}
+.input::placeholder {
+  letter-spacing: 1px;
+}
+
+.button {
+  margin: 8px;
+  height: 44px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+@media (max-width: 860px) {
+  .input {
+    width: 100px;
+  }
+
+  .button {
+    margin-left: 10px;
+  }
+}

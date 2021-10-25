@@ -1,0 +1,45 @@
+.movieCardOuter {
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 450px;
+  width: 300px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.movieCardOuter:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.posterImage {
+  overflow: hidden;
+  object-fit: cover !important;
+}
+
+.addFavBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 4px;
+  z-index: 1;
+}
+
+.addFavBtn:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.addFavBtn:active {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.addWatchLater {
+  right: 70px;
+}

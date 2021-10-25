@@ -1,0 +1,6 @@
+.box {
+  box-shadow: unset;
+  border-radius: unset;
+  width: 100%;
+  max-width: 1400px;
+}

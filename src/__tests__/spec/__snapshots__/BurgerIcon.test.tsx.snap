@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> renders <Box /> component with data. 1`] = `
+<i
+  className="undefined fas fa-bars"
+  onClick={[Function]}
+/>
+`;

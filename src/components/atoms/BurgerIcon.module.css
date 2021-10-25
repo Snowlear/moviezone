@@ -1,0 +1,20 @@
+.burgerMenu {
+  font-size: 30px;
+  color: #000000;
+  cursor: pointer;
+  display: none;
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 860px) {
+  .burgerMenu {
+    display: block;
+  }
+}
+@media (max-width: 1365px) {
+  .burgerMenu {
+    max-width: 90%;
+    display: block;
+  }
+}
