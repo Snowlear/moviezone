@@ -1,4 +1,4 @@
-import { MovieInfoOverlayDataModel } from "./movieInfoOverlayDataModel";
+import { MovieInfoOverlayDataModel } from "./MovieInfoOverlayDataModel";
 
 export interface DataContextModel {
   movies?: any;

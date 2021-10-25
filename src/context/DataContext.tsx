@@ -1,6 +1,6 @@
 import React, { useState, createContext, useEffect } from "react";
 import { DataContextModel } from "../models/DataContextModel";
-import { MovieInfoOverlayDataModel } from "../models/movieInfoOverlayDataModel";
+import { MovieInfoOverlayDataModel } from "../models/MovieInfoOverlayDataModel";
 import { MovieModel } from "../models/MovieModel";
 export const DataContext = createContext<DataContextModel>({});
 export const DataState = ({ children }: any) => {
